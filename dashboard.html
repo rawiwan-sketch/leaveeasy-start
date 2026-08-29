@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แดชบอร์ดสรุป · LeaveEasy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/util.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body>
+  <div id="nav"></div>
+
+  <div class="container">
+    <h1>แดชบอร์ดสรุป</h1>
+    <p class="subtitle">ภาพรวมใบลาในระบบ กดที่กล่องตัวเลขเพื่อดูเฉพาะสถานะนั้น</p>
+
+    <div class="card">
+      <h2>ใบลาแยกตามสถานะ</h2>
+      <div id="กล่องตัวเลข" class="stat-row"></div>
+      <p class="hint">ตัวเลขชุดนี้ยังนับจากข้อมูลตัวอย่างในเครื่อง — การนับจากฐานข้อมูลจริงเป็นงานของสัปดาห์ที่ 7</p>
+    </div>
+
+    <div class="card">
+      <h2>ใบลา 5 รายการล่าสุด</h2>
+      <div id="รายการล่าสุด"></div>
+    </div>
+  </div>
+</body>
+</html>
